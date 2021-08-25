@@ -19,7 +19,8 @@ public class JavaMain {
 		//StopWatch.stopwatchmethod();
 		
 		//-------JUnit Programs--------
-		Temperature.temperaturemethod();
+		//Temperature.temperaturemethod();
+		MonthPayment.emimethod(args);
 
 	}
 
