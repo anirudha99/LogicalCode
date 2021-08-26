@@ -20,7 +20,7 @@ public class JavaMain {
 		
 		//-------JUnit Programs--------
 		//Temperature.temperaturemethod();
-		MonthPayment.emimethod(args);
+		//MonthPayment.emimethod(args);
 
 	}
 
