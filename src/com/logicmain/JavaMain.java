@@ -21,6 +21,11 @@ public class JavaMain {
 		//-------JUnit Programs--------
 		//Temperature.temperaturemethod();
 		//MonthPayment.emimethod(args);
+		//DayofWeek.dayofWeekMethod(args);
+		VendingMachine.vendingmachine();
+		//SQRT.sqrtmethod(args);
+		//toBinary.toBinarymethod();
+		//Binary.binarymethod();
 
 	}
 

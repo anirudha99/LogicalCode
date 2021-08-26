@@ -3,14 +3,14 @@ package Junitprogram;
 public class MonthPayment {
 	
 	public static void emimethod(String [] args){
-		float principal = Float.parseFloat(args[0]);
-		float rate = Float.parseFloat(args[1]);
-		float year = Float.parseFloat(args[2]);
+		double principal = Float.parseFloat(args[0]);
+		double rate = Float.parseFloat(args[1]);
+		double year = Float.parseFloat(args[2]);
 		
-		float monthlyPay = 0.0f;
+		double monthlyPay = 0.0;
 		int months = (int) (12 * year);
-		float r = rate * ((float) rate / 12 * 100);
-		monthlyPay = (float) ((principal * r) / (1 - Math.pow(1 + r, -months)));
+		double r = (double) rate / (12 * 100);
+		monthlyPay = (double) (principal * r) / (1 - Math.pow(1 + r, -months));
 		System.out.println("Monthly payment is : "+ monthlyPay);
 	}
 
