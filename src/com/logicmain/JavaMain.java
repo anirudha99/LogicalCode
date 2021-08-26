@@ -2,6 +2,8 @@ package com.logicmain;
 
 import com.logicprogram.*;
 
+import Junitprogram.*;
+
 public class JavaMain {
 
 	public static void main(String[] args) {
@@ -15,6 +17,10 @@ public class JavaMain {
 		//ReverseNumber.reverseNumber();
 		//CouponNumber.couponNumber();
 		//StopWatch.stopwatchmethod();
+		
+		//-------JUnit Programs--------
+		//Temperature.temperaturemethod();
+		//MonthPayment.emimethod(args);
 
 	}
 
