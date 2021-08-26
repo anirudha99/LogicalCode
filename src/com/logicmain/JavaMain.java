@@ -18,9 +18,7 @@ public class JavaMain {
 		//CouponNumber.couponNumber();
 		//StopWatch.stopwatchmethod();
 		
-		//-------JUnit Programs--------
-		//Temperature.temperaturemethod();
-		//MonthPayment.emimethod(args);
+		
 
 	}
 
